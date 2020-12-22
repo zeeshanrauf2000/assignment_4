@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <title>
+
+    </title>
+    <style>
+        *{
+            margin: 0%;padding: 0%;
+        }
+        .maindiv{
+            width: 100%;height: 100vh;
+            background-image: url(bg.png.png);
+            background-size:100% 100%;
+        }
+        .rain{
+            height: 100vh; background-image: url(rain.png.png);
+            animation: rain 0.3s linear infinite;
+        }
+        @keyframes rain {
+            from{ background-position: 0% 0%;}
+            to{background-position: 30% 100%; }
+            
+        }
+    </style>
+    <head>
+
+    </head>
+    <body>
+        <div class="maindiv">
+            <div class="rain"></div>
+        </div>
+    </body>
+</html>
